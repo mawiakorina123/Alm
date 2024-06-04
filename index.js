@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 const fetch = require('node-fetch');
 const TelegramBot = require('node-telegram-bot-api');
 
-const bot = new TelegramBot("7008356101:AAGVi_hIUsj-6lORfY6aP07Pvnkgk97hUvQ", { polling: true });
+const bot = new TelegramBot("6883235838:AAFNLktPgiySL-oJuzjamwMx_IakHE9Fwks", { polling: true });
 var jsonParser = bodyParser.json({ limit: 1024 * 1024 * 20, type: 'application/json' });
 var urlencodedParser = bodyParser.urlencoded({ extended: true, limit: 1024 * 1024 * 20, type: 'application/x-www-form-urlencoded' });
 const app = express();
